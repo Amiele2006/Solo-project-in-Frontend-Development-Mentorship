@@ -1,5 +1,6 @@
 body{
     margin:0;
+    overflow-x:hidden;
 }
 
 .header{
@@ -9,7 +10,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap:630px;
+    gap:580px;
     
 }
 
