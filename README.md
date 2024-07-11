@@ -1,2 +1,4 @@
 # Solo project in Frontend Development Mentorship
- this was the first solo project i built in the frontend development mentorship in collaboration with scrimba. This is a landing page for lagos as a landmark in nigeria. 
+ This was the First solo project I built in the Frontend Development Mentorship in Collaboration with Scrimba 😙
+ This is a Landing Page for Lagos as a Tourist Spot in Nigeria ✌️
+
