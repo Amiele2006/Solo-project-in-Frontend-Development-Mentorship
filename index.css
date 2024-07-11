@@ -1,0 +1,335 @@
+body{
+    margin:0;
+}
+
+.header{
+    background-color: rgba(0, 77, 64, 1);
+    width:auto;
+    height:78px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:630px;
+    
+}
+
+#lagos{
+   font-family: 'Roboto', sans-serif;
+   font-weight:600;
+   font-size: 24px;
+   line-height: 28px;
+   padding-top: 10px;
+   color:white;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    gap:95px;
+    /* padding-right: 40px; */
+    padding-top: 31.5px;
+}
+
+.links{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:600;
+    line-height: 21.09px;
+
+}
+
+.divider-1{
+    color:white;
+    background-image: url("./high-angle-shot-wooden-bridge-sea-purple-colored-sky.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height:500px;
+    width:1502px;
+    text-align: center;
+}
+
+#lagos-1{
+    margin: 0;
+    padding-top: 190px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56.25px;
+}
+
+#heartbeat{
+    font-family: "Roboto",sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56.25px;
+    margin:10px ;
+}
+
+#explore{
+    font-family: "Roboto",sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    cursor:grab;
+    line-height: 28.13px;
+}
+
+#explore-more{
+    margin-top: 10px;
+    width:180px;
+    height: 47px;
+    background: rgba(255, 87, 34, 1);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 4px 4px black;
+    font-family: " Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 17.5px;
+    line-height: 21.09px;
+}
+
+#lagos-2{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 70px;
+    font-family: "Roboto",sans-serif;
+    font-size:36px;
+    font-weight: 600;
+    line-height: 42.19px;
+}
+
+.divider-2{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:350px;
+}
+
+#p-1{
+    width:500px;
+    font-size: 18px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 600;
+    line-height: 21.09px;
+    letter-spacing: 8%;
+}
+
+.divider-3{
+    padding-top:20px;
+}
+
+#attractions{
+    text-align: center;
+    font-family: "Roboto",sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42.19px;
+}
+
+.divider-4{
+    padding-top: 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.divider-5{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#museum-h{
+    color: rgba(74, 85, 104, 1);
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28.13px;
+}
+
+#museum{
+    width:240px;
+    height:290px;
+    border-radius: 10px;
+}
+
+#p-2{
+    color:rgba(74, 85, 104, 1);
+    width:240px;
+    font-family:"Roboto",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21.09px;
+    text-align: center;
+}
+
+.divider-6{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#gallery-h{
+    color: rgba(74, 85, 104, 1);
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28.13px;
+}
+
+#gallery{
+    width: 250px;
+    height:290px;
+    border-radius: 10px;
+}
+
+#p-3{
+    color:rgba(74, 85, 104, 1);
+    width:240px;
+    font-family: "Roboto",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21.09px;
+}
+
+.divider-7{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#lcc-h{
+    color: rgba(74, 85, 104, 1);
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28.13px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#lcc{
+    width:250px;
+    height: 290px;
+    border-radius: 10px;
+}
+
+#p-4{
+    color:rgba(74, 85, 104, 1);
+    width:240px;
+    font-family: "Roboto",sans-serif;
+    font-size: 15.7px;
+    font-weight: 400;
+    line-height: 21.09px;
+    margin-top: 0px;
+}
+
+#attractions-button{
+    margin-top: 20px;
+    margin-left:2px;
+    width: 200px;
+    height: 45px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px black;
+    background: rgba(255, 87, 34, 1);
+    color:white;
+    font-family: " Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 15.5px;
+    line-height: 21.09px;
+}
+
+footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    width:100%;
+    border-radius: 10px;
+    background-color: rgba(0, 77, 64, 1);
+}
+
+.divider-8{
+    text-align: center;
+}
+
+#privacy{
+    font-family: "Roboto",sans-serif;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 32.81px;
+   text-align: center;
+   color:white;
+}
+
+#terms{
+   display: inline;
+   font-family: "Roboto",sans-serif;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 32.81px;
+   text-align: center;
+   color:white;
+   padding-right: 15px;
+}
+
+#lagos-3{
+    display: inline;
+    font-family: "Roboto",sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32.81px;
+    text-align: center;
+    color:white;
+}
+
+@media (min-width:S) {
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .header{
+        background-color: rgba(0, 77, 64, 1);
+        width:900px;
+        height:78px;
+        display: flex;
+        flex-direction: row;
+        justify-content:start;
+        gap:330px;
+        
+    }
+
+    #lagos{
+        font-family: 'Roboto', sans-serif;
+        font-weight:600;
+        font-size: 24px;
+        line-height: 28px;
+        padding-top: 10px;
+        color:white;
+        padding-left: 10px;
+     }
+     
+     .nav-links{
+         display: flex;
+         flex-direction: row;
+         gap:60px;
+         /* padding-right: 40px; */
+         padding-top: 31.5px;
+     }
+     
+     .links{
+         text-decoration: none;
+         color:white;
+         font-size: 18px;
+         font-family: 'Roboto', sans-serif;
+         font-weight:600;
+         line-height: 20px;
+     }
+     
+}
